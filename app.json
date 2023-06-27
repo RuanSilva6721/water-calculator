@@ -19,12 +19,15 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ruanfelipe.watercalculator"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "2bb62b66-5c82-4012-a7c5-35ea77eca2bc"
+      }
     }
   }
 }
